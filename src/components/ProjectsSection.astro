@@ -1,0 +1,21 @@
+---
+import ProjectCard from '@components/ProjectCard.astro'
+import Typescript from '@assets/icons/typescript.astro';
+import React from '@assets/icons/react.astro';
+import Supabase from '@assets/icons/supabase.astro';
+import Tailwind from '@assets/icons/tailwind.astro';
+import Javascript from '@assets/icons/javascript.astro';
+import Html from '@assets/icons/html.astro';
+import Css from '@assets/icons/css.astro';
+---
+
+<section class="my-20">
+  <h2 class="text-2xl font-semibold mb-2">Project</h2>
+  <hr class="mb-6 border-zinc-600">
+
+  <ProjectCard projectTitle="Omnifood" projectDescription="Udemy course project" projectLink="https://omnifood-lucas-ruben.netlify.app/" image="/images/project1.jpg">
+    <Html />
+    <Css />
+    <Javascript />
+  </ProjectCard>
+</section>
